@@ -1,7 +1,7 @@
 {
   "name": "tauri-app-number-one",
-  "private": true,
-  "version": "0.0.0",
+  "private": false,
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -15,17 +15,18 @@
     "@aurelia/metadata": "2.0.0-beta.9",
     "@aurelia/route-recognizer": "2.0.0-beta.9",
     "@aurelia/router-lite": "2.0.0-beta.9",
-    "@aurelia/runtime-html": "2.0.0-beta.9",
     "@aurelia/runtime": "2.0.0-beta.9",
-    "aurelia": "2.0.0-beta.9",
-    "@tauri-apps/api": "^1.5.3"
+    "@aurelia/runtime-html": "2.0.0-beta.9",
+    "@tauri-apps/api": "^1.5.3",
+    "aurelia": "2.0.0-beta.9"
   },
   "devDependencies": {
-    "@aurelia/vite-plugin": "^2.0.0-beta.9",
+    "@aurelia/vite-plugin": "latest",
     "@tauri-apps/cli": "^1.5.9",
-    "@types/node": "^20.10.8",
+    "@types/node": "^20.11.0",
+    "sass": "^1.69.7",
+    "ts-loader": "^9.5.1",
     "typescript": "^5.3.3",
-    "vite": "^5.0.11",
-    "ts-loader": "^9.5.1"
+    "vite": "^5.0.11"
   }
 }

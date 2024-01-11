@@ -8,7 +8,7 @@
   },
   "package": {
     "productName": "tauri-app-number-one",
-    "version": "0.0.0"
+    "version": "1.0.0"
   },
   "tauri": {
     "allowlist": {
@@ -37,9 +37,9 @@
       {
         "fullscreen": false,
         "resizable": true,
-        "title": "tauri-app-number-one",
-        "width": 800,
-        "height": 600
+        "title": "TAurelia",
+        "width": 1200,
+        "height": 1000
       }
     ]
   }
