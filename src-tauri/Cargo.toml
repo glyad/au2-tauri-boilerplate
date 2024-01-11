@@ -1,5 +1,5 @@
 [package]
-name = "tauri-app-number-one"
+name = "au2-tauri-boilerplate"
 version = "1.0.0"
 description = "A Tauri App"
 authors = ["you"]

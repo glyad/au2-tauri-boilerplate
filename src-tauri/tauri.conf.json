@@ -7,7 +7,7 @@
     "withGlobalTauri": true
   },
   "package": {
-    "productName": "tauri-app-number-one",
+    "productName": "au2-tauri-boilerplate",
     "version": "1.0.0"
   },
   "tauri": {
