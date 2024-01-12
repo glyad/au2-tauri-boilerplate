@@ -3,6 +3,28 @@
   "private": false,
   "version": "1.0.0",
   "type": "module",
+  "license": "MIT",
+  "author": {
+    "name": "David Kossoglyad",
+    "email": "david@logoui.co.il"
+  },
+  "description": "Aurelia 2 + Tauri boilerplate",
+  "bugs": {
+    "url": "https://github.com/glyad/au2-tauri-boilerplate/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glyad/au2-tauri-boilerplate.git"
+  },
+  "keywords": [
+    "aurelia",
+    "tauri",
+    "aurelia2",
+    "aurelia-tauri",
+    "boilerplate",
+    "typescript",
+    "vite"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
