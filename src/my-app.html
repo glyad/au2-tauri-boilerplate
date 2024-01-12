@@ -19,10 +19,12 @@
   <div class="container">
 
     <form class="row" submit.trigger="greet()">
-      <input value.bind="name" placeholder="Enter a name...">
-      <button type="submit">Greet</button>
+      <input value.bind="name" disabled.one-time="tauriBackendDisabled" placeholder="Enter a name..." class="right-gap">
+      <button type="submit" disabled.one-time="tauriBackendDisabled">Greet</button>
     </form>
 
     <h1 class="row" style="margin-top: 7vh;">${message}</h1>
   </div>
+
+  <pre if.one-time="tauriBackendDisabled">Tauri backend isn't available.</pre>
 </div>

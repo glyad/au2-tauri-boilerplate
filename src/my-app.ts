@@ -1,14 +1,19 @@
 import { invoke } from "@tauri-apps/api/tauri";
 
-export class MyApp {
-  public message = 'Hello Tauri World!';
-  public name = 'Aurelia';
+export const isTauriBackendEnabled: boolean = !!window.__TAURI_IPC__; 
 
-  constructor() {
+export class MyApp {
+  public message = 'Hello World without Tauri!';
+  public name = 'Aurelia';
+  public tauriBackendDisabled = !isTauriBackendEnabled;
+
+  bound() {    
     this.greet();
   }
 
   async greet() {
+    if (!isTauriBackendEnabled) return;
+
     // Learn more about Tauri commands at https://tauri.app/v1/guides/features/command
     this.setGreetMsg(await invoke('greet', { name: this.name }));
   }
