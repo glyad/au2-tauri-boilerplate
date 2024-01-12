@@ -1,6 +1,11 @@
 {
   "cSpell.words": [
+    "icns",
+    "Maximizable",
+    "Minimizable",
     "tauri",
+    "unmaximize",
+    "unminimize",
     "vite"
   ]
 }
