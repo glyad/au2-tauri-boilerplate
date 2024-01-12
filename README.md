@@ -2,6 +2,8 @@
 
 This template should help get you started developing with Tauri using [Aurelia 2 framework](https://docs.aurelia.io), CSS/SCSS, Typescript, and Vite.
 
+<img width="966" alt="image" src="https://github.com/glyad/au2-tauri-boilerplate/assets/4238205/afdcd0e6-6ac7-452d-9244-e8633f37e230">
+
 ## Recommended IDE Setup
 
 - [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer) + [Aurelia VSCode Extension](https://marketplace.visualstudio.com/items?itemName=AureliaEffect.aurelia)
