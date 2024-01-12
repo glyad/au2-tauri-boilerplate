@@ -77,9 +77,11 @@
         "fullscreen": false,
         "resizable": true,
         "title": "TAurelia",
-        "width": 1200,
-        "height": 1000
+        "minWidth": 960,
+        "minHeight": 780,
+        "width": 960,
+        "height": 780
       }
-    ]
+    ] 
   }
 }
