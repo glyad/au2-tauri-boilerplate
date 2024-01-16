@@ -13,9 +13,10 @@ This template should help get you started developing with Tauri using [Aurelia 2
 - Use the big green button "Use this template" in the upper right corner to create a copy of this repository.
 - Clone your new repository to your local machine.
 - Run `npm install` to install dependencies.
-- Run `npm run tauri` to start the development server.
+- Run `npm run tauri dev` to start the development server.
 - Alternatively, if you want to run your app in browser (only), use `npm run dev`.
 - NOTE: If you are allready running the app with Tauri, you don't need to rerun the `dev` script.
+- In order to build the app, run `npm run tauri build --target=the_target`, where *the_target* one of the values from the list obtained running the command: `$rustc --print target-list`. Example: `npm run tauri build --target=x86_64-apple-darwin`.
 
 ## Want to learn more?
 
@@ -23,6 +24,13 @@ This template should help get you started developing with Tauri using [Aurelia 2
 - [Aurelia 2](https://docs.aurelia.io)
 - [Vite](https://vitejs.dev)
 - [Typescript](https://www.typescriptlang.org/)
+
+## The Roadmap
+
+- [x] Create the minimalistic Tauri app with Vite and Aurelia 2.
+- [ ] Add End-to-End tests.
+- [ ] Add Github Actions for CI/CD, and continued application upgrade.
+- [ ] Any other ideas? Please, create an issue or a pull request.
 
 ## License
 
