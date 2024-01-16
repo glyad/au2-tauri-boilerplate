@@ -3,6 +3,7 @@
     "icns",
     "Maximizable",
     "Minimizable",
+    "rustc",
     "tauri",
     "unmaximize",
     "unminimize",
