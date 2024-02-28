@@ -8,5 +8,6 @@
     "unmaximize",
     "unminimize",
     "vite"
-  ]
+  ],
+  "codeQL.githubDatabase.download": "never"
 }
