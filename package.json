@@ -45,7 +45,7 @@
   "devDependencies": {
     "@aurelia/vite-plugin": "latest",
     "@tauri-apps/cli": "^1.5.10",
-    "@types/node": "^20.11.19",
+    "@types/node": "^20.11.21",
     "sass": "^1.71.1",
     "typescript": "^5.3.3",
     "vite": "^5.1.4"
