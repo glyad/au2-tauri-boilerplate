@@ -32,22 +32,22 @@
     "tauri": "tauri"
   },
   "dependencies": {
-    "@aurelia/fetch-client": "2.0.0-beta.9",
-    "@aurelia/kernel": "2.0.0-beta.9",
-    "@aurelia/metadata": "2.0.0-beta.9",
-    "@aurelia/route-recognizer": "2.0.0-beta.9",
-    "@aurelia/router-lite": "2.0.0-beta.9",
-    "@aurelia/runtime": "2.0.0-beta.9",
-    "@aurelia/runtime-html": "2.0.0-beta.9",
+    "@aurelia/fetch-client": "2.0.0-beta.12",
+    "@aurelia/kernel": "2.0.0-beta.12",
+    "@aurelia/metadata": "2.0.0-beta.12",
+    "@aurelia/route-recognizer": "2.0.0-beta.12",
+    "@aurelia/router-lite": "2.0.0-beta.12",
+    "@aurelia/runtime": "2.0.0-beta.12",
+    "@aurelia/runtime-html": "2.0.0-beta.12",
     "@tauri-apps/api": "^1.5.3",
-    "aurelia": "2.0.0-beta.9"
+    "aurelia": "2.0.0-beta.12"
   },
   "devDependencies": {
     "@aurelia/vite-plugin": "latest",
-    "@tauri-apps/cli": "^1.5.9",
-    "@types/node": "^20.11.5",
-    "sass": "^1.70.0",
-    "typescript": "^5.3.3",
-    "vite": "^5.0.12"
+    "@tauri-apps/cli": "^1.5.11",
+    "@types/node": "^20.11.26",
+    "sass": "^1.71.1",
+    "typescript": "^5.4.2",
+    "vite": "^5.1.6"
   }
 }
